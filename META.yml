@@ -1,0 +1,28 @@
+---
+abstract: 'Plurk Emoticons'
+author:
+  - 'Kang-min Liu  C<< <gugod@gugod.org> >>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  Test::More: 0.88
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 0.91'
+license: mit
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: Text::Emoticon::Plurk
+name: Text-Emoticon-Plurk
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  JSON: 2.15
+  Text::Emoticon: 0.03
+  perl: 5.005
+resources:
+  license: http://opensource.org/licenses/mit-license.php
+version: 0.01
